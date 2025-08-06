@@ -1,0 +1,49 @@
+img {
+  width: 800px;
+  height: 500px;
+}
+button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: azure;
+}
+button:hover {
+  animation: hover 3s ease-in-out infinite;
+}
+@keyframes hover {
+  0% {
+    background-color: azure;
+    transform: scale(1);
+  }
+  50% {
+    background-color: aqua;
+    transform: scale(1.4);
+  }
+  100% {
+    background-color: aquamarine;
+    transform: scale(1);
+  }
+}
+h2 {
+  color: blue;
+  opacity: 1;
+}
+h2:hover {
+  animation: skew 3s ease-in-out infinite;
+}
+@keyframes skew {
+  0% {
+    transform: skew(0deg, 0deg);
+    color: blue;
+  }
+  50% {
+    transform: skew(20deg, 20deg);
+    color: red;
+  }
+  100% {
+    transform: skew(0deg, 0deg);
+    color: blue;
+  }
+}
