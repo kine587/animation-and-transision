@@ -1,6 +1,20 @@
 img {
-  width: 800px;
-  height: 500px;
+  width: 600px;
+  height: 400px;
+}
+img:hover {
+  animation: hearthbeat 0.7s infinite;
+}
+@keyframes hearthbeat {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
 }
 button {
   display: inline-block;
