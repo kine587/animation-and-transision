@@ -3,7 +3,7 @@ img {
   height: 400px;
 }
 img:hover {
-  animation: hearthbeat 0.7s infinite;
+  animation: hearthbeat 0.3s infinite;
 }
 @keyframes hearthbeat {
   0% {
